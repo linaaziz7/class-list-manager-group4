@@ -15,14 +15,16 @@ def to_upper(names):
     return upper_names
   
 # ===== Each student adds her function ABOVE this line =====
-
+# Written by: Dhay (task 1)
+def count_names(names):
+    return len(names)
 
 def main():
     print("Welcome to the Class List Manager!")
     print("Class list:", names)
-
+    
     # Each student calls her function here
-
+    print("Number of names:", count_names(names))
     print("Uppercase names:", to_upper(names))
 main()
   
