@@ -7,6 +7,10 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 # ===== Each student adds her function BELOW this line =====
 
 
+# Written by: Reemas (task 3)
+def sort_names(names):
+    return sorted(names)
+    
 # Written by: Lina Alfaadhel (task 6)
 def to_upper(names):
     upper_names = []
@@ -18,10 +22,6 @@ def to_upper(names):
 # Written by: Dhay (task 1)
 def count_names(names):
     return len(names) 
-
-# Written by: Reemas (task 3)
-def sort_names(names):
-    return sorted(names)
     
 def main():
     print("Welcome to the Class List Manager!")
@@ -29,7 +29,8 @@ def main():
     
     # Each student calls her function here
     print("Number of names:", count_names(names))
-    print("Uppercase names:", to_upper(names))
     print("Sorted names:", sort_names(names))
+    print("Uppercase names:", to_upper(names))
+    
 main()
   
