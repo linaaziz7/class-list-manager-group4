@@ -10,6 +10,10 @@ names = ["Sara", "Noura", "Lama", "Reem", "Amal", "Lama"]
 def count_names(names):
     return len(names) 
     
+# Written by: Noor (task 2)
+def search_name(names, name):
+    return name in names  
+    
 # Written by: Reemas (task 3)
 def sort_names(names):
     return sorted(names)
@@ -29,6 +33,7 @@ def main():
     
     # Each student calls her function here
     print("Number of names:", count_names(names))
+    print("Search for Sara:", search_name(names, "Sara"))
     print("Sorted names:", sort_names(names))
     print("Uppercase names:", to_upper(names))
     
